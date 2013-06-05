@@ -2,14 +2,14 @@
 %define upstream_version 0.33
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%perl_convert_version 0.34
+Release:	1
 
 Summary:	Templating module that generates Excel
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Excel/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Excel/Excel-Template-0.34.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(ExtUtils::MakeMaker)
@@ -62,4 +62,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 * Sat Jan 01 2011 Guillaume Rousse <guillomovitch@mandriva.org> 0.320.0-1mdv2011.0
 + Revision: 627063
 - import perl-Excel-Template
+
 
