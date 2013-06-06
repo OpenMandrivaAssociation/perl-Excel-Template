@@ -1,6 +1,5 @@
 %define upstream_name    Excel-Template
-%define upstream_version 0.33
-
+%define upstream_version 0.34
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version 0.34
 Release:	1
