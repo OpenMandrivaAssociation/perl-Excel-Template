@@ -2,7 +2,7 @@
 %define upstream_version 0.34
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version 0.34
-Release:	2
+Release:	3
 
 Summary:	Templating module that generates Excel
 License:	GPL+ or Artistic
