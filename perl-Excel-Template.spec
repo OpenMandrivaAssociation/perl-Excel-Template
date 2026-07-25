@@ -1,14 +1,14 @@
 %define upstream_name    Excel-Template
 %define upstream_version 0.34
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version 0.34
-Release:	3
+Version:	%{upstream_version}
+Release:	4
 
 Summary:	Templating module that generates Excel
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Excel/Excel-Template-0.34.tar.gz
+Url:		https://metacpan.org/dist/Excel-Template
+Source0:	https://cpan.metacpan.org/authors/id/R/RB/RBO/Excel-Template-0.34.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
